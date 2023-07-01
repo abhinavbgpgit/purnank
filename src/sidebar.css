@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;600;700;800;900&display=swap");
+.nav_bar ul{
+    list-style: none;
+    width: 250px;
+    margin-left: -40px;
+}
+.nav_bar_main
+{
+    background-color: rgb(196, 214, 220);
+    display: flex;
+    /* justify-content: start; */
+    /* align-items: center; */
+   
+}
+.nav_bar
+{
+    background-color: rgb(33, 117, 190);
+    width: 250px;
+    
+   
+   
+}
+.icon {
+    transition: transform 0.2s;
+    transform: rotate(0deg);
+  }
+  
+  .iconExpanded {
+    transform: rotate(-90deg);
+  }
+
+  .master
+  {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    height: 50px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  .master span
+  {
+    margin-top: 20px;
+      }
+      .accordion-bar {
+        height: 1px;
+        background-color: #0a0808;
+        border-bottom: 0cap;
+        /* margin-top: 8px; */
+      }
+      .menu_items
+      {
+        font-family: "Poppins", serif;
+        font-size: 14px;
+      }
+      .right_content
+      {
+        /* background-color: chocolate; */
+        width: 80%;
+        margin: auto;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 50px;
+       
+      }
+
+      .card
+      {
+        height: 250px;
+        width: 300px;
+       cursor: pointer;
+        background-color: rgb(33, 117, 190);
+        border-radius: 5px;
+             
+      }
+      .card:hover
+      {
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;   */
+      }
+      .card_icon
+      {
+        background-color: rgb(255, 255, 255);
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color:rgb(255, 255, 255);
+        
+        
+      }
+      .card_name
+      {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        color: white;
+      }
+      .inner_icon
+      {
+        background-color: rgb(33, 117, 190);
+        padding: 20px;
+        border-radius: 50%;
+        transition: all 0.3s ;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      }
+      .inner_icon:hover
+      {
+        transform: scale(1.1);
+        
+      }

@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;600;700;800;900&display=swap");
+.nav_top {
+  background-color: rgb(146, 195, 226);
+  height: 60px;
+}
+
+.nav_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin-right: 20px;
+}
+.notification_icon
+{
+    cursor: pointer;
+    position: relative;
+}
+.bubble
+{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    margin-left: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bubble span{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+.icon_section {
+  display: flex;
+  cursor: pointer;
+}
+
+.home_icon {
+  margin-left: 5px;
+  cursor: pointer;
+}
+.key_icon {
+  margin-left: 5px;
+}
+.logo {
+  margin-left: 20px;
+  /* position: relative; */
+}
+
+.text_pu {
+  font-size: 30px;
+  font-weight: bolder;
+  color: blue;
+}
+.text_na {
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(255, 0, 0);
+}
+.text_k {
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(3, 95, 20);
+}
+.hms {
+  position: absolute;
+  top: 0;
+  margin: 0px 0px 0px 80px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.text_hospital {
+  font-size: 40px;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  color: rgb(13, 77, 94);
+  margin-left: 200px;
+}
+.admin_text
+{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.nav_bottom
+{
+    height: 40px;
+    background-color: rgb(44, 81, 190);
+}
+.nav_bottom
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu
+{
+    display: flex;
+    width: 90%;
+}
+.menu_item
+{
+    margin-left: 30px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.left_bar_icon
+{
+    background-color: rgb(17, 48, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    color: white;
+    cursor: pointer;
+}
+.right_bar_icon
+{
+    background-color: rgb(17, 48, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    color: white; 
+    cursor: pointer;
+}

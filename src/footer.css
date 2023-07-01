@@ -1,0 +1,14 @@
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background-color: rgb(44, 49, 87);
+    color: white;
+    }
+    .footer_margin
+    {
+        height: 30px;
+        background-color: rgb(196, 214, 220);
+    }
